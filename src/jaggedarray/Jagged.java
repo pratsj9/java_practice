@@ -17,10 +17,10 @@ public static void main(String args[])
 	j_arr[2]=arr3;
 
 	
-	for(int i=0;i<j_arr.length;i++)
+	for(int i=0;i<j_arr.length;i++)  //Enhanced-for(int[] temp;j_arr)
 	{
 		
-	for(int j=0;j<j_arr[i].length;j++)
+	for(int j=0;j<j_arr[i].length;j++)//Enhanced-for(int temp2:temp)
 	
 	{
 		System.out.print(j_arr[i][j]+" ");
