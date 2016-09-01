@@ -15,30 +15,33 @@ public class Displayer {
 
 	public static void disp()
 	{
-		
 	System.out.println("\n\t Also Displaying from the static method Disp");	
 	}
+	
 	public void display()
 	{
 		
 		System.out.println("\n\t ID:");
-		System.out.println(id);
+		System.out.println("\t"+id);
 		System.out.println("\n\t Name:");
-		System.out.println(name);
+		System.out.println("\t"+name);
 	}
 	
 
 public static void main(String args[])
 {
 
-	Displayer[] d = new Displayer[5];
+	Displayer[] d = new Displayer[10];
 	Scanner scn = new Scanner(System.in);
-	for(int i=0;i<3;i++)
+	int ch;
+	System.out.println("\nEnter the number of Records: Max Limit 10");
+	ch=scn.nextInt();
+	for(int i=0;i<ch;i++)
 	{
 		d[i]=new Displayer();
 	}
-	System.out.println("\n\tEnter 3 Data values:");
-	for(int i=0;i<3;i++)
+	System.out.println("\n\tEnter "+count+" Data values:");
+	for(int i=0;i<count;i++)
 	{
 		System.out.println("\n\tEnter ID:");
 		d[i].id=scn.nextInt();
@@ -49,11 +52,11 @@ public static void main(String args[])
 	{
 		d[i].display();
 	}
-	
+	 
 		System.out.println("\n\tFinal Object Count value:"+count);
 		Displayer.disp();
 		scn.close();
-}
+	}
 
 
 }
