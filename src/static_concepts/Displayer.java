@@ -20,12 +20,11 @@ public class Displayer {
 	
 	public void display()
 	{
-		
 		System.out.println("\n\t ID:");
 		System.out.println("\t"+id);
 		System.out.println("\n\t Name:");
 		System.out.println("\t"+name);
-	}
+	 }
 	
 
 public static void main(String args[])
@@ -41,13 +40,15 @@ public static void main(String args[])
 		d[i]=new Displayer();
 	}
 	System.out.println("\n\tEnter "+count+" Data values:");
+	
 	for(int i=0;i<count;i++)
 	{
-		System.out.println("\n\tEnter ID:");
+		System.out.println("\n\t Enter ID:");
 		d[i].id=scn.nextInt();
 		System.out.println("\n\t Enter Name:");
 		d[i].name=scn.next();
 	}
+	
 	for(int i=0;i<count;i++)
 	{
 		d[i].display();
