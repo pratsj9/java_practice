@@ -1,3 +1,5 @@
+//Program implementing a static variable alongwith Array of objects and object count
+
 package static_concepts;
 
 import java.util.Scanner;
