@@ -16,7 +16,10 @@ public void calc_area(float l,float b)
 	System.out.println("\n\tInside Base Class Rectangle Calc Method");
 	System.out.println("\n\tArea of Rectangle is:");
 	System.out.println("\n\t"+(l*b)+" Sq.M");
-
 }
+
+
+
+
 
 }
