@@ -26,7 +26,15 @@ public static void main(String args[])
 	System.out.println("\n\t Boolean Object Value(String):"+b1);
 	
 
+	System.out.println("\n\t--------Parse Method---------");
 	
+	String str = "160";   			//Created a String containing a number
+	int x = Integer.parseInt(str); 	//Passing the string as a parameter to ParseInt and convert it 
+	System.out.println("\n\tConverted String Value to Int:"+x);		
+			
+
+	String str2 = Integer.toString(x);
+	System.out.println("\n\t Converted Integer to String:"+str2);
 
 }
 
