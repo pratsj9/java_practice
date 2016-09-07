@@ -8,7 +8,7 @@ public class Wrapper_sample {
 public static void main(String args[])
 {
 
-	int param1 = Integer.parseInt(args[0]);    //Passing arguments to the program and storing them in String variables
+	int param1 = Integer.parseInt(args[0]);    //Passing String arguments to the program and storing them in int variables
 	int param2 = Integer.parseInt(args[1]);  
 	
 	System.out.println("\n\tPrinting addition of Command Line Arguments: "+(param1+param2));
@@ -33,7 +33,6 @@ public static void main(String args[])
 	
 
 	System.out.println("\n\t--------Parse Method---------");
-	
 	String str = "160";   			//Created a String containing a number
 	int x = Integer.parseInt(str); 	//Passing the string as a parameter to ParseInt and convert it 
 	System.out.println("\n\tConverted String Value to Int:"+x);		
