@@ -33,8 +33,8 @@ public static void main(String args[])
 	System.out.println("\n\tConverted String Value to Int:"+x);		
 			
 
-	String str2 = Integer.toString(x);
-	System.out.println("\n\t Converted Integer to String:"+str2);
+	String str2 = Integer.toString(x);   //Using the toString method for an Integer Value
+	System.out.println("\n\t Converted Integer to String:"+str2);   
 
 }
 
