@@ -8,6 +8,12 @@ public class Wrapper_sample {
 public static void main(String args[])
 {
 
+	int param1 = Integer.parseInt(args[0]);    //Passing arguments to the program and storing them in String variables
+	int param2 = Integer.parseInt(args[1]);  
+	
+	System.out.println("\n\tPrinting addition of Command Line Arguments: "+(param1+param2));
+	
+			
 	System.out.println("\n\t-------Wrapper Classes------");
 	Integer i1 = new Integer(45);
 	System.out.println("\n\tPrinting wrapper Integer Object:"+i1);
@@ -36,7 +42,12 @@ public static void main(String args[])
 	String str2 = Integer.toString(x);   //Using the toString method for an Integer Value
 	System.out.println("\n\t Converted Integer to String:"+str2);   
 
+
+	
+
 }
+
+
 
 
 
