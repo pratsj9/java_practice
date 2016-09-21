@@ -24,6 +24,7 @@ public class Sample_gui extends Frame  {
 		b1.setLabel("Click!");
 		username.setText("Username");
 		passwd.setText("Password");
+
 		
 		
 		b1.addActionListener(new ActionListener() {
