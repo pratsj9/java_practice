@@ -3,7 +3,6 @@ import javax.swing.JTextField;
 
 import java.awt.GridLayout;
 
-
 import javax.swing.*;
 
 import Controller.*;
@@ -19,11 +18,13 @@ public class ViewDemo extends JFrame  {
 
 	public ViewDemo()
 	{
+	
 		
 		ControllerDemo c1 = new ControllerDemo(this);		
 		
 		setLayout(new GridLayout(3,2));
 
+		
 		tf1 = new JTextField();
 		tf2 = new JTextField();
 		addition = new JButton("ADD");
@@ -32,10 +33,11 @@ public class ViewDemo extends JFrame  {
 		
 		add(tf1);add(tf2);add(addition);add(sub);add(res);
 	
-	
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(400,400);
 		setVisible(true);
+	
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		
 		addition.addActionListener(c1);
 		sub.addActionListener(c1);
