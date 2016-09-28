@@ -48,11 +48,10 @@ public class Thread_Sample extends JFrame implements Runnable
 				
 				@Override
 				public void actionPerformed(ActionEvent e) {
-					for(int i=0;i<5;i++){
-					tf1.append((String.valueOf(i)));
-					
-					
-					
+					for(int i=0;i<5;i++)
+					{
+					tf1.append((String.valueOf(i)+"\n"));
+						
 					}
 				}});
 			
